@@ -40,7 +40,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
       Map<dynamic, dynamic> uploadedResponse = await _onboardingService
           .saveOnboardingData(
-            ExerciseModel(
+            OnboardingModel(
               name: name,
               weight: weight,
               age: double.parse(age),
@@ -74,108 +74,105 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     return Scaffold(
       appBar: AppBar(title: Text('Onboarding')),
       body: Padding(
-                padding: EdgeInsets.all(16.0),
-                child: Form(
-                  key: _formKey,
-                  child: SingleChildScrollView(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      children: [
-                        Image.asset('assets/images/splash_logo.webp'),
-                        const SizedBox(height: 16.0),
-                        TextFormField(
-                          controller: _nameController,
-                          decoration: const InputDecoration(
-                            border: OutlineInputBorder(),
-                            labelText: 'Name',
-                          ),
-                          validator:
-                              (value) =>
-                                  value == null || value.isEmpty
-                                      ? "Enter your name"
-                                      : null,
-                        ),
-                        const SizedBox(height: 16.0),
-                        Row(
-                          spacing: 4.0,
-                          children: [
-                            Expanded(
-                              child: TextFormField(
-                                controller: _weightController,
-                                keyboardType: TextInputType.number,
-                                decoration: const InputDecoration(
-                                  border: OutlineInputBorder(),
-                                  labelText: 'Weight',
-                                ),
-                                validator:
-                                    (value) =>
-                                        value == null || value.isEmpty
-                                            ? "Enter your Weight"
-                                            : null,
-                              ),
-                            ),
-                            Expanded(
-                              child: TextFormField(
-                                controller: _ageController,
-                                keyboardType: TextInputType.number,
-                                decoration: const InputDecoration(
-                                  border: OutlineInputBorder(),
-                                  labelText: 'Age',
-                                ),
-                                validator:
-                                    (value) =>
-                                        value == null || value.isEmpty
-                                            ? "Enter your Age"
-                                            : null,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 16.0),
-                        Row(
-                          spacing: 4.0,
-                          children: [
-                            Expanded(
-                              child: TextFormField(
-                                controller: _heightController,
-                                keyboardType: TextInputType.number,
-                                decoration: const InputDecoration(
-                                  border: OutlineInputBorder(),
-                                  labelText: 'Height',
-                                ),
-                                validator:
-                                    (value) =>
-                                        value == null || value.isEmpty
-                                            ? "Enter your Height"
-                                            : null,
-                              ),
-                            ),
-                            Expanded(
-                              child: TextFormField(
-                                controller: _bodyFatPercentageController,
-                                keyboardType: TextInputType.number,
-                                decoration: const InputDecoration(
-                                  border: OutlineInputBorder(),
-                                  labelText: 'Fat %',
-                                ),
-                                validator:
-                                    (value) =>
-                                        value == null || value.isEmpty
-                                            ? "Enter your Fat %"
-                                            : null,
-                              ),
-                            ),
-                          ],
-                        ),
-                        ElevatedButton(
-                          onPressed: _saveForm,
-                          child: Text("Save"),
-                        ),
-                      ],
-                    ),
+        padding: EdgeInsets.all(16.0),
+        child: Form(
+          key: _formKey,
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: [
+                Image.asset('assets/images/splash_logo.webp'),
+                const SizedBox(height: 16.0),
+                TextFormField(
+                  controller: _nameController,
+                  decoration: const InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Name',
                   ),
+                  validator:
+                      (value) =>
+                          value == null || value.isEmpty
+                              ? "Enter your name"
+                              : null,
                 ),
-              ),
+                const SizedBox(height: 16.0),
+                Row(
+                  spacing: 4.0,
+                  children: [
+                    Expanded(
+                      child: TextFormField(
+                        controller: _weightController,
+                        keyboardType: TextInputType.number,
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'Weight',
+                        ),
+                        validator:
+                            (value) =>
+                                value == null || value.isEmpty
+                                    ? "Enter your Weight"
+                                    : null,
+                      ),
+                    ),
+                    Expanded(
+                      child: TextFormField(
+                        controller: _ageController,
+                        keyboardType: TextInputType.number,
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'Age',
+                        ),
+                        validator:
+                            (value) =>
+                                value == null || value.isEmpty
+                                    ? "Enter your Age"
+                                    : null,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16.0),
+                Row(
+                  spacing: 4.0,
+                  children: [
+                    Expanded(
+                      child: TextFormField(
+                        controller: _heightController,
+                        keyboardType: TextInputType.number,
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'Height',
+                        ),
+                        validator:
+                            (value) =>
+                                value == null || value.isEmpty
+                                    ? "Enter your Height"
+                                    : null,
+                      ),
+                    ),
+                    Expanded(
+                      child: TextFormField(
+                        controller: _bodyFatPercentageController,
+                        keyboardType: TextInputType.number,
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'Fat %',
+                        ),
+                        validator:
+                            (value) =>
+                                value == null || value.isEmpty
+                                    ? "Enter your Fat %"
+                                    : null,
+                      ),
+                    ),
+                  ],
+                ),
+                ElevatedButton(onPressed: _saveForm, child: Text("Save")),
+              ],
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

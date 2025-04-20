@@ -1,4 +1,4 @@
-class ExerciseModel {
+class OnboardingModel {
   final String? id;
   final String? deviceId;
   final String name;
@@ -7,7 +7,7 @@ class ExerciseModel {
   final double age;
   final double bodyFatPercentage;
 
-  ExerciseModel({
+  OnboardingModel({
     this.id,
     required this.name,
     this.deviceId,
@@ -29,7 +29,7 @@ class ExerciseModel {
     };
   }
 
-  ExerciseModel copyWith({
+  OnboardingModel copyWith({
     String? id,
     String? name,
     String? deviceId,
@@ -38,7 +38,7 @@ class ExerciseModel {
     double? age,
     double? bodyFatPercentage,
   }) {
-    return ExerciseModel(
+    return OnboardingModel(
       id: id ?? this.id,
       name: name ?? this.name,
       deviceId: deviceId ?? this.deviceId,
@@ -49,8 +49,8 @@ class ExerciseModel {
     );
   }
 
-  factory ExerciseModel.fromMap(Map<String, dynamic> map) {
-    return ExerciseModel(
+  factory OnboardingModel.fromMap(Map<String, dynamic> map) {
+    return OnboardingModel(
       id: map["_id"] ?? "",
       name: map["name"] ?? "",
       weight: map["weight"] ?? "",

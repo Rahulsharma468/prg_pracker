@@ -45,7 +45,7 @@ class OnboardingMongoDBService {
   }
 
   Future<Map<String, dynamic>> saveOnboardingData(
-    ExerciseModel onboardingData,
+    OnboardingModel onboardingData,
   ) async {
     try {
       String deviceId = await getDeviceDetails();

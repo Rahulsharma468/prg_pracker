@@ -1,0 +1,956 @@
+[
+  {
+    "_id": "ex01",
+    "name": "Barbell Overhead Press",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/barbell_overhead_press.json"
+  },
+  {
+    "_id": "ex02",
+    "name": "Dumbbell Shoulder Press",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/dumbbell_shoulder_press.json"
+  },
+  {
+    "_id": "ex03",
+    "name": "Lateral Raise",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/lateral_raise.json"
+  },
+  {
+    "_id": "ex04",
+    "name": "Front Raise",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/front_raise.json"
+  },
+  {
+    "_id": "ex05",
+    "name": "Arnold Press",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/arnold_press.json"
+  },
+  {
+    "_id": "ex06",
+    "name": "Upright Row",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/upright_row.json"
+  },
+  {
+    "_id": "ex07",
+    "name": "Bent-Over Reverse Fly",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/bent_over_reverse_fly.json"
+  },
+  {
+    "_id": "ex08",
+    "name": "Face Pull",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/face_pull.json"
+  },
+  {
+    "_id": "ex09",
+    "name": "Machine Shoulder Press",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/machine_shoulder_press.json"
+  },
+  {
+    "_id": "ex10",
+    "name": "Dumbbell Lateral Raise (Incline)",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/dumbbell_lateral_raise_incline.json"
+  },
+  {
+    "_id": "ex11",
+    "name": "Dumbbell Front Raise (Alternating)",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/dumbbell_front_raise_alternating.json"
+  },
+  {
+    "_id": "ex12",
+    "name": "Cable Lateral Raise",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/cable_lateral_raise.json"
+  },
+  {
+    "_id": "ex13",
+    "name": "Cable Front Raise",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/cable_front_raise.json"
+  },
+  {
+    "_id": "ex14",
+    "name": "Single-Arm Dumbbell Press",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/single_arm_dumbbell_press.json"
+  },
+  {
+    "_id": "ex15",
+    "name": "Overhead Cable Press",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/overhead_cable_press.json"
+  },
+  {
+    "_id": "ex16",
+    "name": "Seated Machine Lateral Raise",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/seated_machine_lateral_raise.json"
+  },
+  {
+    "_id": "ex17",
+    "name": "Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/barbell_bench_press.json"
+  },
+  {
+    "_id": "ex18",
+    "name": "Dumbbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/dumbbell_bench_press.json"
+  },
+  {
+    "_id": "ex19",
+    "name": "Incline Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/incline_barbell_bench_press.json"
+  },
+  {
+    "_id": "ex20",
+    "name": "Incline Dumbbell Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/incline_dumbbell_press.json"
+  },
+  {
+    "_id": "ex21",
+    "name": "Decline Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/decline_barbell_bench_press.json"
+  },
+  {
+    "_id": "ex22",
+    "name": "Decline Dumbbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/decline_dumbbell_bench_press.json"
+  },
+  {
+    "_id": "ex23",
+    "name": "Chest Fly (Dumbbell)",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/dumbbell_chest_fly.json"
+  },
+  {
+    "_id": "ex24",
+    "name": "Chest Fly (Machine)",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/machine_chest_fly.json"
+  },
+  {
+    "_id": "ex25",
+    "name": "Cable Chest Fly",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/cable_chest_fly.json"
+  },
+  {
+    "_id": "ex26",
+    "name": "Cable Crossover",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/cable_crossover.json"
+  },
+  {
+    "_id": "ex27",
+    "name": "Flat Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/flat_barbell_bench_press.json"
+  },
+  {
+    "_id": "ex28",
+    "name": "Flat Dumbbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/flat_dumbbell_bench_press.json"
+  },
+  {
+    "_id": "ex29",
+    "name": "Machine Chest Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/machine_chest_press.json"
+  },
+  {
+    "_id": "ex30",
+    "name": "Cable Incline Chest Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/cable_incline_chest_press.json"
+  },
+  {
+    "_id": "ex31",
+    "name": "Dumbbell Pullover",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/dumbbell_pullover.json"
+  },
+  {
+    "_id": "ex32",
+    "name": "Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/barbell_bench_press.json"
+  },
+  {
+    "_id": "ex33",
+    "name": "Dumbbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/dumbbell_bench_press.json"
+  },
+  {
+    "_id": "ex34",
+    "name": "Incline Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/incline_barbell_bench_press.json"
+  },
+  {
+    "_id": "ex35",
+    "name": "Incline Dumbbell Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/incline_dumbbell_press.json"
+  },
+  {
+    "_id": "ex36",
+    "name": "Flat Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/flat_barbell_bench_press.json"
+  },
+  {
+    "_id": "ex37",
+    "name": "Flat Dumbbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/flat_dumbbell_bench_press.json"
+  },
+  {
+    "_id": "ex38",
+    "name": "Cable Incline Chest Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/cable_incline_chest_press.json"
+  },
+  {
+    "_id": "ex39",
+    "name": "Dumbbell Pullover",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/dumbbell_pullover.json"
+  },
+  {
+    "_id": "ex40",
+    "name": "Barbell Chest Dip",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/barbell_chest_dip.json"
+  },
+  {
+    "_id": "ex41",
+    "name": "Dumbbell Chest Dip",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/dumbbell_chest_dip.json"
+  },
+  {
+    "_id": "ex42",
+    "name": "Chest Press (Machine)",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/chest_press_machine.json"
+  },
+  {
+    "_id": "ex43",
+    "name": "Close-Grip Barbell Bench Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/close_grip_barbell_bench_press.json"
+  },
+  {
+    "_id": "ex44",
+    "name": "Single-Arm Cable Chest Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/single_arm_cable_chest_press.json"
+  },
+  {
+    "_id": "ex45",
+    "name": "Smith Machine Chest Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/smith_machine_chest_press.json"
+  },
+  {
+    "_id": "ex46",
+    "name": "Cable Decline Chest Press",
+    "type": "Strength",
+    "bodyPart": "Chest",
+    "animationAsset": "assets/animations/cable_decline_chest_press.json"
+  },
+  {
+    "_id": "ex47",
+    "name": "Barbell Back Squat",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/barbell_back_squat.json"
+  },
+  {
+    "_id": "ex48",
+    "name": "Dumbbell Goblet Squat",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_goblet_squat.json"
+  },
+  {
+    "_id": "ex49",
+    "name": "Barbell Front Squat",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/barbell_front_squat.json"
+  },
+  {
+    "_id": "ex50",
+    "name": "Barbell Romanian Deadlift",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/barbell_romanian_deadlift.json"
+  },
+  {
+    "_id": "ex51",
+    "name": "Dumbbell Romanian Deadlift",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_romanian_deadlift.json"
+  },
+  {
+    "_id": "ex52",
+    "name": "Barbell Lunge",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/barbell_lunge.json"
+  },
+  {
+    "_id": "ex53",
+    "name": "Dumbbell Step-Up",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_step_up.json"
+  },
+  {
+    "_id": "ex54",
+    "name": "Cable Leg Extension",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/cable_leg_extension.json"
+  },
+  {
+    "_id": "ex55",
+    "name": "Cable Kickback",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/cable_kickback.json"
+  },
+  {
+    "_id": "ex56",
+    "name": "Cable Squat",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/cable_squat.json"
+  },
+  {
+    "_id": "ex57",
+    "name": "Cable Pull-Through",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/cable_pull_through.json"
+  },
+  {
+    "_id": "ex58",
+    "name": "Dumbbell Sumo Squat",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_sumo_squat.json"
+  },
+  {
+    "_id": "ex59",
+    "name": "Dumbbell Calf Raise",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_calf_raise.json"
+  },
+  {
+    "_id": "ex60",
+    "name": "Barbell Calf Raise",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/barbell_calf_raise.json"
+  },
+  {
+    "_id": "ex61",
+    "name": "Cable Standing Calf Raise",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/cable_standing_calf_raise.json"
+  },
+  {
+    "_id": "ex62",
+    "name": "Cable Lateral Lunge",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/cable_lateral_lunge.json"
+  },
+  {
+    "_id": "ex63",
+    "name": "Dumbbell Lateral Lunge",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_lateral_lunge.json"
+  },
+  {
+    "_id": "ex64",
+    "name": "Dumbbell Reverse Lunge",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_reverse_lunge.json"
+  },
+  {
+    "_id": "ex65",
+    "name": "Barbell Hack Squat",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/barbell_hack_squat.json"
+  },
+  {
+    "_id": "ex66",
+    "name": "Barbell Deadlift",
+    "type": "Strength",
+    "bodyPart": "Back",
+    "animationAsset": "assets/animations/barbell_deadlift.json"
+  },
+  {
+    "_id": "ex67",
+    "name": "Barbell Bent-Over Row",
+    "type": "Strength",
+    "bodyPart": "Back",
+    "animationAsset": "assets/animations/barbell_bent_over_row.json"
+  },
+  {
+    "_id": "ex68",
+    "name": "Barbell T-Bar Row",
+    "type": "Strength",
+    "bodyPart": "Back",
+    "animationAsset": "assets/animations/barbell_t_bar_row.json"
+  },
+  {
+    "_id": "ex69",
+    "name": "Barbell Pendlay Row",
+    "type": "Strength",
+    "bodyPart": "Back",
+    "animationAsset": "assets/animations/barbell_pendlay_row.json"
+  },
+  {
+    "_id": "ex70",
+    "name": "Dumbbell Skull Crusher",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/dumbbell_skull_crusher.json"
+  },
+  {
+    "_id": "ex71",
+    "name": "Dumbbell Close-Grip Press",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/dumbbell_close_grip_press.json"
+  },
+  {
+    "_id": "ex72",
+    "name": "Cable Triceps Pushdown (Rope Attachment)",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/cable_triceps_pushdown_rope.json"
+  },
+  {
+    "_id": "ex73",
+    "name": "Cable Overhead Triceps Extension",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/cable_overhead_triceps_extension.json"
+  },
+  {
+    "_id": "ex74",
+    "name": "Cable Triceps Kickback",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/cable_triceps_kickback.json"
+  },
+  {
+    "_id": "ex75",
+    "name": "Cable One-Arm Triceps Pushdown",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/cable_one_arm_triceps_pushdown.json"
+  },
+  {
+    "_id": "ex76",
+    "name": "Cable Lying Triceps Extension",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/cable_lying_triceps_extension.json"
+  },
+  {
+    "_id": "ex77",
+    "name": "Barbell Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/barbell_curl.json"
+  },
+  {
+    "_id": "ex78",
+    "name": "Barbell Reverse Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/barbell_reverse_curl.json"
+  },
+  {
+    "_id": "ex79",
+    "name": "Barbell Drag Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/barbell_drag_curl.json"
+  },
+  {
+    "_id": "ex80",
+    "name": "EZ Bar Preacher Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/ez_bar_preacher_curl.json"
+  },
+  {
+    "_id": "ex81",
+    "name": "EZ Bar Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/ez_bar_curl.json"
+  },
+  {
+    "_id": "ex82",
+    "name": "Dumbbell Biceps Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/dumbbell_biceps_curl.json"
+  },
+  {
+    "_id": "ex83",
+    "name": "Dumbbell Hammer Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/dumbbell_hammer_curl.json"
+  },
+  {
+    "_id": "ex84",
+    "name": "Incline Dumbbell Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/incline_dumbbell_curl.json"
+  },
+  {
+    "_id": "ex85",
+    "name": "Dumbbell Concentration Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/dumbbell_concentration_curl.json"
+  },
+  {
+    "_id": "ex86",
+    "name": "Dumbbell Zottman Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/dumbbell_zottman_curl.json"
+  },
+  {
+    "_id": "ex87",
+    "name": "Cable Biceps Curl (Straight Bar)",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/cable_biceps_curl_straight_bar.json"
+  },
+  {
+    "_id": "ex88",
+    "name": "Cable Rope Hammer Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/cable_rope_hammer_curl.json"
+  },
+  {
+    "_id": "ex89",
+    "name": "Cable Concentration Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/cable_concentration_curl.json"
+  },
+  {
+    "_id": "ex90",
+    "name": "Cable Preacher Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/cable_preacher_curl.json"
+  },
+  {
+    "_id": "ex91",
+    "name": "Barbell Wrist Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/barbell_wrist_curl.json"
+  },
+  {
+    "_id": "ex92",
+    "name": "Barbell Reverse Wrist Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/barbell_reverse_wrist_curl.json"
+  },
+  {
+    "_id": "ex93",
+    "name": "Barbell Reverse Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/barbell_reverse_curl.json"
+  },
+  {
+    "_id": "ex94",
+    "name": "Barbell Behind-The-Back Wrist Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/barbell_behind_the_back_wrist_curl.json"
+  },
+  {
+    "_id": "ex95",
+    "name": "Dumbbell Wrist Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/dumbbell_wrist_curl.json"
+  },
+  {
+    "_id": "ex96",
+    "name": "Dumbbell Reverse Wrist Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/dumbbell_reverse_wrist_curl.json"
+  },
+  {
+    "_id": "ex97",
+    "name": "Dumbbell Hammer Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/dumbbell_hammer_curl.json"
+  },
+  {
+    "_id": "ex98",
+    "name": "Dumbbell Zottman Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/dumbbell_zottman_curl.json"
+  },
+  {
+    "_id": "ex99",
+    "name": "Dumbbell Farmer's Carry",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/dumbbell_farmers_carry.json"
+  },
+  {
+    "_id": "ex100",
+    "name": "Cable Wrist Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_wrist_curl.json"
+  },
+  {
+    "_id": "ex101",
+    "name": "Cable Reverse Wrist Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_reverse_wrist_curl.json"
+  },
+  {
+    "_id": "ex102",
+    "name": "Cable Zottman Curl",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_zottman_curl.json"
+  },
+  {
+    "_id": "ex103",
+    "name": "Cable Radial Deviation",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_radial_deviation.json"
+  },
+  {
+    "_id": "ex104",
+    "name": "Cable Ulnar Deviation",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_ulnar_deviation.json"
+  },
+  {
+    "_id": "ex105",
+    "name": "Cable Static Hold",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_static_hold.json"
+  },
+  {
+    "_id": "ex106",
+    "name": "Cable Wrist Roller",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_wrist_roller.json"
+  },
+  {
+    "_id": "ex107",
+    "name": "Cable Wrist Extension",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_wrist_extension.json"
+  },
+  {
+    "_id": "ex108",
+    "name": "Cable Wrist Flexion",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_wrist_flexion.json"
+  },
+  {
+    "_id": "ex109",
+    "name": "Cable Wrist Pronation",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_wrist_pronation.json"
+  },
+  {
+    "_id": "ex110",
+    "name": "Cable Wrist Supination",
+    "type": "Strength",
+    "bodyPart": "Forearms",
+    "animationAsset": "assets/animations/cable_wrist_supination.json"
+  },
+  {
+    "_id": "ex111",
+    "name": "Dumbbell Side Bend",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/dumbbell_side_bend.json"
+  },
+  {
+    "_id": "ex112",
+    "name": "Dumbbell Weighted Sit-Up",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/dumbbell_weighted_sit_up.json"
+  },
+  {
+    "_id": "ex113",
+    "name": "Dumbbell Woodchopper",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/dumbbell_woodchopper.json"
+  },
+  {
+    "_id": "ex114",
+    "name": "Dumbbell Weighted Leg Raise",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/dumbbell_weighted_leg_raise.json"
+  },
+  {
+    "_id": "ex115",
+    "name": "Barbell Rollout",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/barbell_rollout.json"
+  },
+  {
+    "_id": "ex116",
+    "name": "Barbell Overhead Sit-Up",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/barbell_overhead_sit_up.json"
+  },
+  {
+    "_id": "ex117",
+    "name": "Barbell Landmine Twist",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/barbell_landmine_twist.json"
+  },
+  {
+    "_id": "ex118",
+    "name": "Barbell Side Bend",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/barbell_side_bend.json"
+  },
+  {
+    "_id": "ex119",
+    "name": "Barbell Weighted Crunch",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/barbell_weighted_crunch.json"
+  },
+  {
+    "_id": "ex120",
+    "name": "Cable Crunch",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_crunch.json"
+  },
+  {
+    "_id": "ex121",
+    "name": "Cable Woodchopper",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_woodchopper.json"
+  },
+  {
+    "_id": "ex122",
+    "name": "Cable Side Bend",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_side_bend.json"
+  },
+  {
+    "_id": "ex123",
+    "name": "Cable Pallof Press",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_pallof_press.json"
+  },
+  {
+    "_id": "ex124",
+    "name": "Cable Reverse Crunch",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_reverse_crunch.json"
+  },
+  {
+    "_id": "ex125",
+    "name": "Cable Standing Oblique Crunch",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_standing_oblique_crunch.json"
+  },
+  {
+    "_id": "ex126",
+    "name": "Cable Seated Crunch",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_seated_crunch.json"
+  },
+  {
+    "_id": "ex127",
+    "name": "Cable Standing Side Crunch",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_standing_side_crunch.json"
+  },
+  {
+    "_id": "ex128",
+    "name": "Cable Standing Leg Raise",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_standing_leg_raise.json"
+  },
+  {
+    "_id": "ex129",
+    "name": "Cable Standing Oblique Twist",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/cable_standing_oblique_twist.json"
+  },
+  {
+    "_id": "ex130",
+    "name": "Dumbbell Bulgarian Split Squat",
+    "type": "Strength",
+    "bodyPart": "Legs",
+    "animationAsset": "assets/animations/dumbbell_bulgarian_split_squat.json"
+  },
+  {
+    "_id": "ex131",
+    "name": "Dumbbell Triceps Kickback",
+    "type": "Strength",
+    "bodyPart": "Triceps",
+    "animationAsset": "assets/animations/dumbbell_triceps_kickback.json"
+  },
+  {
+    "_id": "ex132",
+    "name": "Cable Reverse Curl",
+    "type": "Strength",
+    "bodyPart": "Biceps",
+    "animationAsset": "assets/animations/cable_reverse_curl.json"
+  },
+  {
+    "_id": "ex133",
+    "name": "Dumbbell Russian Twist",
+    "type": "Strength",
+    "bodyPart": "Abs",
+    "animationAsset": "assets/animations/dumbbell_russian_twist.json"
+  },
+  {
+    "_id": "ex134",
+    "name": "Dumbbell Plank Row",
+    "type": "Strength",
+    "bodyPart": "Back",
+    "animationAsset": "assets/animations/dumbbell_plank_row.json"
+  },
+  {
+    "_id": "ex135",
+    "name": "Cable Face Pull",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/cable_face_pull.json"
+  },
+  {
+    "_id": "ex136",
+    "name": "Cable Upright Row",
+    "type": "Strength",
+    "bodyPart": "Shoulders",
+    "animationAsset": "assets/animations/cable_upright_row.json"
+  }
+
+]
+  
